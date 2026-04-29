@@ -12,6 +12,8 @@ public class Input {
      double weight = sc.nextDouble();
      String details = sc.nextLine();
      System.out.println("your age is "+ ages);
+     System.out.println(weight);
+     System.out.println(details);
 
     }
 }
