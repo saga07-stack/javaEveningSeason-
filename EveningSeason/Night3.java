@@ -29,6 +29,11 @@ public class Night3 {
  System.out.print("Your name is "+ name1 + " And your age is "+ age+" And your height is  "+ height);
         src.close();
 
+        String hello = "hello sagar ";
+        System.out.println(hello.substring(2,5));
+
+        System.out.println(hello.toUpperCase());
+        System.out.println(hello.toLowerCase());
     }
     
 }
