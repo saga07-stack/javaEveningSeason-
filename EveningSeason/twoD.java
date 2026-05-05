@@ -67,20 +67,30 @@ System.out.println(" ");
 // printing the sum of  each column in matrix
 
     int eachColumn = 0;
+    int eachColumn2 = 0;
+    int eachColumn3= 0;
     for (int i = 0; i<arr.length; i++){
+         eachColumn2 += arr[i][1];
+         eachColumn3 += arr[i][2];
          eachColumn += arr[i][0];
-      for (int j = 0; j<arr[i].length; j++){
-       // System.out.print(arr[i][j]);
-        
+
+      
+     
      
        
-      }
-      eachColumn = 0;
+      
+
     }
+     System.out.println(eachColumn);
+    System.out.println(eachColumn2);
+    System.out.println(eachColumn3);
+
 
 
 }
 }
+
+
 
 
 
