@@ -7,4 +7,10 @@ public class Sbi extends Bank {
         
         System.out.println("SBI interest is 7%");
     }
+    public static void main(String[] args) {
+        Sbi src = new Sbi();
+        src.interest();
+        System.out.println();
+
+    }
 }
