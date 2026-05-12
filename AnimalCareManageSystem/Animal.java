@@ -16,7 +16,7 @@ abstract class Animal {
     return age;
    }
 
-    public Animal (String name , int age){
+     Animal(String name , int age){
         this.name = name;
         this.age = age;
 
