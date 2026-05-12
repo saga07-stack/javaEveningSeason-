@@ -1,9 +1,24 @@
-package JavaAdvT2.Q01_basic2;
+package JavaAdvT2.Q01_basic4;
 
 public class Member {
+    private int id;
+    private String password;
     private String name;
     private int age;
     private int rank;
+
+    public void setId(int id){
+        this.id = id;
+    }
+    public void setPassword(String password){
+        this.password = password;
+    }
+    public int getId(){
+        return id;
+    }
+    public String getPassword(){
+        return password;
+    }
 
     public void setName(String name){
         this.name = name;
@@ -23,15 +38,21 @@ public class Member {
     public int getRank(){
         return rank;
     }
-    public void rankUp(){
-        System.out.println(">> RANKUp>>");
-        System.out.println("--Get Rank");
-        System.out.println("new Rank : " + (++rank));
-      
+    public Member(){
+
+    }
+    public Member(int id, String password, String name, int age, int rank){
+        this.id = id;
+        this.password= password;
+        this.name = name;
+        this.age = age;
+        this.rank = rank;
     }
     public void showMember (){
-    System.out.println("--show Data--");
+    System.out.println("--show All  Members--");
         System.out.println("**member data  **");
+        System.out.println(" id : " + id);
+        System.out.println("password : " + password);
         System.out.println("name : " + name);
         System.out.println("age : " + age);
         System.out.println( " rank : " + rank);
